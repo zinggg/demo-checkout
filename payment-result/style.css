@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+* {
+  outline: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: #f7f7f7 url("abstract-bg-1.png") no-repeat center center;
+  background-size: cover;
+  padding: 40px;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 0;
+  color: #222;
+}
+
+.ctn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1200px;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  overflow: hidden;
+  background: #fff;
+  -webkit-box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.ctn .col {
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  width: 50%;
+  padding: 40px 20px;
+}
+.ctn .col:first-child {
+  padding-left: 40px;
+}
+.ctn .col:last-child {
+  padding-right: 40px;
+}
+.ctn .col img {
+  display: block;
+  width: 100%;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 300;
+  margin: 0;
+}
+
+ul {
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 300;
+  color: #a9a9a9;
+  margin: 20px 0 40px;
+  padding: 0;
+  list-style: none;
+}
+ul li {
+  padding: 5px 0;
+}
+ul li span {
+  color: #222;
+}
+
+.wpwl-button {
+  border: 0;
+  border-radius: 4px;
+  padding: 15px 30px;
+  font-size: 16px;
+  line-height: 32px;
+  outline: 0 !important;
+  text-decoration: none;
+  -webkit-transition: 0.15s ease-in-out;
+  transition: 0.15s ease-in-out;
+}
+.wpwl-button-back {
+  color: #fff;
+  background: #0aaeba;
+}
+.wpwl-button-back:hover {
+  background: #0997a2;
+}

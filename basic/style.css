@@ -1,0 +1,157 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.checkout-container {
+    border: 3px solid #525552;
+    width: 600px;
+    margin: auto;
+}
+
+.checkout-container > h1 {
+    text-align: center;
+    color: #0e0d0b;
+}
+
+.checkout-container > h3 {
+    color: #5a5a5a;
+    text-align: center;
+    font-weight: 300;
+}
+.checkout-container > h3 > strong {
+    font-weight: 500;
+    color: #4a9399;
+}
+
+.wpwl-button-pay {
+    width: 100%;
+}
+
+body {
+  background-color: #ffffff;
+}
+.wpwl-control,
+input.wpwl-control {
+  background: white;
+  font-family: "Roboto", sans-serif;
+  text-transform: none;
+  padding: 10px;
+  font-size: 14px;
+  height: 48px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #e9f0f6 !important;
+  border-radius: 4px;
+}
+
+.wpwl-form {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.wpwl-form *:before,
+.wpwl-form *:after {
+  display: none;
+}
+.wpwl-group {
+  width: 100%;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+.wpwl-wrapper {
+  width: 100%;
+}
+.wpwl-group-brand {
+  display: none;
+}
+
+.wpwl-group-cardNumber {
+  order: 2;
+  flex: 1;
+}
+.wpwl-group-cardNumber:before {
+  content: "";
+  display: block;
+  width: 20px;
+  background: url("card.png") no-repeat center center;
+  background-size: contain;
+  position: absolute;
+  left: 10px;
+  top: 0;
+  bottom: 0;
+  z-index: 2;
+  opacity: 0.5;
+}
+.wpwl-group-expiry,
+.wpwl-group-cvv {
+  order: 3;
+  width: 90px;
+}
+
+.wpwl-group-cardNumber input.wpwl-control,
+.wpwl-group-cardNumber .wpwl-control {
+  border-right: 0;
+  padding-left: 40px;
+  border-radius: 4px 0 0 4px;
+}
+.wpwl-group-expiry input.wpwl-control,
+.wpwl-group-expiry .wpwl-control {
+  border-left: 0;
+  border-right: 0;
+  text-align: center;
+  border-radius: 0;
+}
+.wpwl-group-cvv input.wpwl-control,
+.wpwl-group-cvv .wpwl-control {
+  border-left: 0;
+  text-align: center;
+  border-radius: 0;4px 4px 0
+}
+
+.wpwl-group-cardHolder {
+  order: 1;
+}
+.wpwl-wrapper-cardHolder {
+  display: flex;
+}
+.wpwl-hint {
+  display: none;
+}
+
+.wpwl-group-submit {
+  order: 5;
+}
+
+.wpwl-button {
+  display: block;
+  text-align: center;
+  width: 100%;
+  color: #ffffff;
+  background: #3f7bda;
+  position: relative;
+  border: 0 !important;
+  outline: 0 !important;
+  padding: 0.875rem 1.75rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  border-radius: 0.375rem;
+  font-family: "Roboto", sans-serif;
+  transition: 0.15s ease-in-out;
+}
+.wpwl-button:hover,
+.wpwl-button:focus {
+  background: #3262ae;
+}
+.wpwl-button-error[disabled],
+.wpwl-button-error[disabled]:hover,
+.wpwl-button-error[disabled]:focus,
+.wpwl-button-error[disabled]:active {
+  background: #e7428c;
+  opacity: 1;
+}
+.wpwl-has-error {
+  color: #e7428c;
+}

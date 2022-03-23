@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+* {
+  outline: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(#d5a67e), to(#ab8662));
+  background: linear-gradient(180deg, #d5a67e 0%, #ab8662 100%);
+  background-size: cover;
+  padding: 40px;
+  margin: 0;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.ctn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1200px;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  overflow: hidden;
+  background: #fff;
+  -webkit-box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.ctn .ls {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 40px;
+}
+.ctn .rs {
+  padding-left: 40px;
+}
+.ctn .rs img {
+  display: block;
+  height: 670px;
+}
+
+.card__btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 -10px;
+}
+.card__btns .col {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 0 10px;
+}
+.card__btns button {
+  background: #111;
+  color: #fff;
+  border-radius: 4px;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 0;
+  width: 100%;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.15);
+  -webkit-transition: 0.15s ease-in-out;
+  transition: 0.15s ease-in-out;
+}
+.card__btns button span {
+  display: block;
+  padding-right: 1em;
+}
+.card__btns button img {
+  display: block;
+  height: 18px;
+}
+.card__btns button:hover {
+  background: #333;
+}
+.card__sep {
+  position: relative;
+  margin: 30px 0;
+  font-size: 14px;
+  font-weight: 300;
+  color: #a9a9a9;
+  line-height: 20px;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+}
+.card__sep span {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  background: #fff;
+  padding: 0 0.5em;
+}
+.card__sep:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #a9a9a9;
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+.card .wpwl-form {
+  margin: 0;
+  max-width: 100%;
+}
+.card .wpwl-group {
+  margin: 0;
+  padding: 0;
+}
+.card .wpwl-group-expiry, .card .wpwl-group-cvv {
+  float: left;
+  width: 50%;
+}
+.card .wpwl-group-expiry {
+  margin-right: -1px;
+  width: calc(50% + 1px);
+}
+.card .wpwl-group-cardHolder {
+  margin-bottom: 24px;
+}
+.card .wpwl-group-product {
+  clear: both;
+  padding: 40px 0;
+}
+.card .wpwl-group-product .wpwl-product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  white-space: nowrap;
+  margin-bottom: 4px;
+  font-size: 18px;
+  line-height: 1.2;
+}
+.card .wpwl-group-product .wpwl-product .content {
+  font-size: 18px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+.card .wpwl-group-product .wpwl-product .info {
+  font-size: 14px;
+  color: rgba(34, 34, 34, 0.5);
+  font-weight: 300;
+}
+.card .wpwl-group-product .wpwl-product .price {
+  color: #ab8662;
+  font-size: 32px;
+  line-height: 1;
+}
+.card .wpwl-label {
+  display: block;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 32px;
+  color: #a9a9a9;
+  width: 100%;
+  float: none;
+  margin: 0 0 5px;
+  padding: 0;
+}
+.card .wpwl-wrapper {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: relative;
+}
+.card .wpwl-wrapper .icon {
+  display: block;
+  position: absolute;
+  z-index: 2;
+  height: 32px;
+  right: 10px;
+  top: 10px;
+}
+.card .wpwl-control {
+  display: block;
+  width: 100%;
+  height: 52px;
+  padding: 10px;
+  border: 1px solid #a9a9a9 !important;
+  background-color: #fff;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 300;
+  -webkit-box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.15);
+}
+.card .wpwl-control-cardNumber {
+  border-radius: 4px 4px 0 0;
+  margin-bottom: -1px;
+}
+.card .wpwl-control-expiry {
+  border-radius: 0 0 0 4px;
+}
+.card .wpwl-control-cvv {
+  border-radius: 0 0 4px 0;
+}
+.card .wpwl-label-expiry,
+.card .wpwl-label-cvv,
+.card .wpwl-group-brand,
+.card .wpwl-hint {
+  display: none !important;
+}
+.card .wpwl-has-error {
+  color: #e6908d;
+  -webkit-box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.15), inset 0 0 10px #e6908d;
+          box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.15), inset 0 0 10px #e6908d;
+}
+.card .wpwl-button {
+  border: 0;
+  border-radius: 4px;
+  padding: 15px 30px;
+  font-size: 18px;
+  line-height: 32px;
+  outline: 0 !important;
+  -webkit-transition: 0.15s ease-in-out;
+  transition: 0.15s ease-in-out;
+}
+.card .wpwl-button-pay {
+  width: 50%;
+  color: #fff;
+  background: #d5a67e;
+}
+.card .wpwl-button-pay:hover {
+  background: #cf996b;
+}
+.card .wpwl-button-back {
+  color: #222;
+  background: #e5e5e5;
+}
+.card .wpwl-button-back:hover {
+  background: #d8d8d8;
+}
+.card .wpwl-button[disabled], .card .wpwl-button-error[disabled], .card .wpwl-button-error[disabled]:hover, .card .wpwl-button-error[disabled]:focus, .card .wpwl-button-error[disabled]:active {
+  background: #e6908d !important;
+  opacity: 1;
+  cursor: default;
+}

@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+
+* {
+  outline: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: #f7f7f7 url("abstract-bg-1.png") no-repeat center center;
+  background-size: cover;
+  padding: 40px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0;
+  color: #222;
+}
+.ctn {
+  display: flex;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0px 3px 7px rgba(#000000, 0.15);
+  border-radius: 4px;
+
+  .col {
+    flex: none;
+    width: 50%;
+    padding: 40px 20px;
+
+    &:first-child {
+      padding-left: 40px;
+    }
+    &:last-child {
+      padding-right: 40px;
+    }
+
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 300;
+  margin: 0;
+}
+
+ul {
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 300;
+  color: #a9a9a9;
+  margin: 20px 0 40px;
+  padding: 0;
+  list-style: none;
+
+  li {
+    padding: 5px 0;
+    //border-top: 1px solid #eee;
+    span {
+      color: #222;
+    }
+  }
+}
+.wpwl-button {
+  border: 0;
+  border-radius: 4px;
+  padding: 15px 30px;
+  font-size: 16px;
+  line-height: 32px;
+  outline: 0 !important;
+  text-decoration: none;
+  transition: 0.15s ease-in-out;
+
+  &-back {
+    color: #fff;
+    background: #0aaeba;
+
+    &:hover {
+      background: darken(#0aaeba, 5%);
+    }
+  }
+}

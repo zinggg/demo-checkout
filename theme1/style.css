@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+* {
+  outline: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: #f7f7f7 url("abstract-bg-1.png") no-repeat center center;
+  background-size: cover;
+  padding: 40px;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 0;
+}
+
+.card {
+  border-radius: 4px;
+  background: #f7f7f7;
+  border: 4px solid rgba(15, 15, 15, 0.75);
+  width: 640px;
+}
+.card .card-header {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  line-height: 1.2;
+  padding: 48px;
+  background: #fff;
+  margin: 0;
+}
+.card .wpwl-title {
+  font-size: 32px;
+  font-weight: 300;
+  margin-bottom: 24px;
+  color: #0f0f0f;
+}
+.card .wpwl-subtitle {
+  font-size: 16px;
+  font-weight: 300;
+  color: #979797;
+  letter-spacing: 0.05em;
+}
+.card .wpwl-subtitle strong {
+  color: #0aaeba;
+  font-weight: 500;
+}
+
+.wpwl-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0;
+  max-width: 100%;
+  padding: 48px;
+}
+
+.wpwl-group {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+  width: 100%;
+  margin-bottom: 12px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #979797;
+}
+
+.wpwl-control,
+input.wpwl-control {
+  background: white;
+  font-family: "Roboto", sans-serif !important;
+  font-weight: 300;
+  text-transform: none;
+  padding: 4px 10px;
+  font-size: 16px;
+  height: 46px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #e5e5e5 !important;
+  border-radius: 4px;
+}
+.wpwl-control:placeholder,
+input.wpwl-control:placeholder {
+  color: #979797;
+  opacity: 1;
+}
+
+.wpwl-form *:before,
+.wpwl-form *:after {
+  display: none;
+}
+
+.wpwl-wrapper {
+  width: 100%;
+}
+
+.wpwl-group-brand {
+  display: none;
+}
+
+.wpwl-group-cardNumber {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.wpwl-group-cardNumber:before {
+  content: "";
+  display: block;
+  width: 20px;
+  background: url("card.png") no-repeat center center;
+  background-size: contain;
+  position: absolute;
+  left: 10px;
+  top: 0;
+  bottom: 0;
+  z-index: 2;
+  opacity: 0.5;
+}
+
+.wpwl-group-expiry,
+.wpwl-group-cvv {
+  width: 96px;
+}
+
+.wpwl-group-cardNumber input.wpwl-control,
+.wpwl-group-cardNumber .wpwl-control {
+  border-right: 0;
+  padding-left: 36px;
+  border-radius: 4px 0 0 4px;
+}
+
+.wpwl-group-expiry input.wpwl-control,
+.wpwl-group-expiry .wpwl-control {
+  border-right: 0;
+  text-align: center;
+  border-radius: 0;
+  padding: 4px;
+}
+
+.wpwl-group-cvv input.wpwl-control,
+.wpwl-group-cvv .wpwl-control {
+  text-align: center;
+  border-radius: 0 4px 4px 0;
+  padding: 4px;
+}
+
+.wpwl-group-product {
+  padding: 32px 0;
+}
+.wpwl-group-product .wpwl-product-info {
+  font-weight: 300;
+}
+.wpwl-group-product .wpwl-product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  white-space: nowrap;
+  margin-bottom: 4px;
+  font-size: 16px;
+  color: #505050;
+}
+.wpwl-group-product .wpwl-product .name {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  font-weight: 500;
+}
+
+.wpwl-hint {
+  display: none;
+}
+
+.wpwl-group-submit {
+  margin-bottom: 0;
+}
+
+.wpwl-button-pay {
+  display: block;
+  text-align: center;
+  width: 100%;
+  color: #ffffff;
+  background: #0aaeba;
+  position: relative;
+  border: 0 !important;
+  outline: 0 !important;
+  padding: 15px;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  line-height: 1;
+  border-radius: 4px;
+  font-family: "Roboto", sans-serif;
+  -webkit-transition: 0.15s ease-in-out;
+  transition: 0.15s ease-in-out;
+}
+
+.wpwl-button:hover,
+.wpwl-button:focus {
+  background: #07868f;
+}
+
+.wpwl-button-error[disabled],
+.wpwl-button-error[disabled]:hover,
+.wpwl-button-error[disabled]:focus,
+.wpwl-button-error[disabled]:active {
+  background: #0aaeba;
+  opacity: 0.5;
+  cursor: default;
+}
+
+.wpwl-has-error,
+.wpwl-has-error input {
+  color: #e7428c !important;
+  -webkit-box-shadow: inset 0 0 0 1px #e7428c !important;
+          box-shadow: inset 0 0 0 1px #e7428c !important;
+}
+.wpwl-has-error::-webkit-input-placeholder, .wpwl-has-error input::-webkit-input-placeholder {
+  color: #e7428c !important;
+}
+.wpwl-has-error::-moz-placeholder, .wpwl-has-error input::-moz-placeholder {
+  color: #e7428c !important;
+}
+.wpwl-has-error:-ms-input-placeholder, .wpwl-has-error input:-ms-input-placeholder {
+  color: #e7428c !important;
+}
+.wpwl-has-error::-ms-input-placeholder, .wpwl-has-error input::-ms-input-placeholder {
+  color: #e7428c !important;
+}
+.wpwl-has-error::placeholder,
+.wpwl-has-error input::placeholder {
+  color: #e7428c !important;
+}

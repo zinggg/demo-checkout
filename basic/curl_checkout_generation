@@ -1,0 +1,13 @@
+curl https://eu-test.oppwa.com/v1/checkouts \
+ -d "entityId=8a8294174b7ecb28014b9699220015ca" \
+ -d "amount=92.00" \
+ -d "currency=EUR" \
+ -d "paymentType=DB" \
+ -d "standingInstruction.source=CIT" \
+ -d "standingInstruction.mode=INITIAL" \
+ -d "standingInstruction.type=UNSCHEDULED" \
+ -H "Authorization: Bearer OGFjN2E0Yzg3ZmIwZjFiNjAxN2ZiMjBmY2Y0NjAyYzV8eTVxblozaFlmYQ=="
+
+
+curl https://eu-test.oppwa.com/v1/checkouts/42FC5762123BA5854C70B51F224B90B8.uat01-vm-tx04/payment
+ -H "Authorization: Bearer OGFjN2E0Yzg3ZmIwZjFiNjAxN2ZiMjBmY2Y0NjAyYzV8eTVxblozaFlmYQ=="
