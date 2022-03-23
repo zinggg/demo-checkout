@@ -22,7 +22,7 @@
     $checkout_result_code = $decoded_checkout_result['result']['code'];
     $checkout_result_id = $decoded_checkout_result['id'];
 ?>
-
+  
     <div class="ctn">
       <div class="ls">
         <div class="card">

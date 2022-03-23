@@ -44,5 +44,9 @@ function moveContent() {
   $(productHTML).insertBefore(".wpwl-group-submit");
   $(".wpwl-wrapper-cardNumber").append('<img src="cards.png" alt="" class="icon">');
   $(".wpwl-wrapper-cvv").append('<img src="cvv.png" alt="" class="icon">');
-  $(".wpwl-wrapper-submit").append('<button class="wpwl-button wpwl-button-back" type="reset">Back</button>');
+  $(".wpwl-wrapper-submit").append('<button id="backButton" class="wpwl-button wpwl-button-back" type="reset">Back</button>');
+
+  document.getElementById("backButton").onclick = function() {
+    window.location.href = "../index.html";
+   };
 }
