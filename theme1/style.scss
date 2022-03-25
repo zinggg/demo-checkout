@@ -24,6 +24,7 @@ body {
   width: 640px;
 
   .card-header {
+    position: relative;
     font-family: "Roboto", sans-serif;
     font-size: 12px;
     line-height: 1.2;
@@ -31,6 +32,26 @@ body {
     padding: 48px;
     background: #fff;
     margin: 0;
+
+    a.back {
+      position: absolute;
+      right: 48px;
+      top: 48px;
+      display: block;
+      color: #979797;
+      text-decoration: none;
+      transition: 0.15s ease-in-out;
+
+      &:hover {
+        color: #0f0f0f;
+      }
+
+      svg {
+        display: block;
+        width: 24px;
+        height: 24px;
+      }
+    }
   }
   .wpwl-title {
     font-size: 32px;
@@ -131,16 +152,16 @@ input.wpwl-control {
 .wpwl-group-expiry .wpwl-control {
   //border-left: 0;
   border-right: 0;
-  text-align: center;
+  //text-align: center;
   border-radius: 0;
-  padding: 4px;
+  padding: 0 0 0 10px;
 }
 .wpwl-group-cvv input.wpwl-control,
 .wpwl-group-cvv .wpwl-control {
   //border-left: 0;
-  text-align: center;
+  //text-align: center;
   border-radius: 0 4px 4px 0;
-  padding: 4px;
+  padding: 0 0 0 10px;
 }
 
 .wpwl-group-product {

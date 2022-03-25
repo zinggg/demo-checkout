@@ -1,30 +1,30 @@
-body{
-    font-family: 'Roboto', sans-serif;
+body {
+  font-family: "Roboto", sans-serif;
 }
 
 .checkout-container {
-    border: 3px solid #525552;
-    width: 600px;
-    margin: auto;
+  border: 3px solid #525552;
+  width: 600px;
+  margin: auto;
 }
 
 .checkout-container > h1 {
-    text-align: center;
-    color: #0e0d0b;
+  text-align: center;
+  color: #0e0d0b;
 }
 
 .checkout-container > h3 {
-    color: #5a5a5a;
-    text-align: center;
-    font-weight: 300;
+  color: #5a5a5a;
+  text-align: center;
+  font-weight: 300;
 }
 .checkout-container > h3 > strong {
-    font-weight: 500;
-    color: #4a9399;
+  font-weight: 500;
+  color: #3f7bda;
 }
 
 .wpwl-button-pay {
-    width: 100%;
+  width: 100%;
 }
 
 body {
@@ -49,7 +49,7 @@ input.wpwl-control {
   flex-wrap: wrap;
   margin: 0 auto;
   width: 100%;
-  padding: 20px 0;
+  padding: 20px 0 10px;
 }
 
 .wpwl-form *:before,
@@ -101,14 +101,12 @@ input.wpwl-control {
 .wpwl-group-expiry .wpwl-control {
   border-left: 0;
   border-right: 0;
-  text-align: center;
   border-radius: 0;
 }
 .wpwl-group-cvv input.wpwl-control,
 .wpwl-group-cvv .wpwl-control {
   border-left: 0;
-  text-align: center;
-  border-radius: 0;4px 4px 0
+  border-radius: 0 4px 4px 0;
 }
 
 .wpwl-group-cardHolder {
@@ -154,4 +152,20 @@ input.wpwl-control {
 }
 .wpwl-has-error {
   color: #e7428c;
+}
+
+.checkout-footer {
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 300;
+}
+
+.checkout-footer a {
+  color: #5a5a5a;
+  text-decoration: none;
+}
+.checkout-footer a:hover {
+  color: #3f7bda;
 }

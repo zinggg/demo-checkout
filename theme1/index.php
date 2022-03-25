@@ -24,6 +24,11 @@
 
     <div class="card">
       <div class="card-header">
+        <a href="../index.html" class="back">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" fill="currentColor">
+            <path d="M990,57.1L942.9,10L500,452.9L57.1,10L10,57.1L452.9,500L10,942.9L57.1,990L500,547.1L942.9,990l47.1-47.1L547.1,500L990,57.1z"/>
+          </svg>
+        </a>
         <div class="wpwl-title">
           Purchase your <br />
           Consultation Package

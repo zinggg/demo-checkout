@@ -33,6 +33,9 @@
     <div class="checkout-form">
         <form action="../payment-result/index.php" class="paymentWidgets"
             data-brands="VISA MASTER AMEX"></form>
+        <div class="checkout-footer">
+            <a href="../index.html" class="back">Return to main page</a>
+        </div>
     </div>
 </div>
 
